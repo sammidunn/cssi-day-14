@@ -3,13 +3,19 @@ const funAnimals = []
 funAnimals.push({
     name: "Hygge",
     type: "cat",
-    reason: "agressive snuggler"
+    reason: "aggressive snuggler"
 })
 
 funAnimals.push({
     name: "Trecito",
     type: "dog",
     reason: "four legs worth of energy at the cost of three"
+})
+
+funAnimals.push({
+    name: "Peter",
+    type: "tortoise",
+    reason: "backyard grass eater"
 })
 
 for (let animal of funAnimals) {
